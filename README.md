@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+# Appscrip - Product Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive, modern e-commerce product listing page built with React.js, demonstrating professional frontend development practices.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- ✅ **Responsive Design:** Desktop, Tablet, and Mobile optimized
+- ✅ **Dynamic Product Grid:** Fetch products from Fake Store API
+- ✅ **Advanced Filtering:** Filter by category, price range, and search
+- ✅ **SEO Optimized:** Semantic HTML, meta tags, schema.org markup
+- ✅ **Accessibility:** WCAG 2.1 AA compliant
+- ✅ **Clean Code:** Modular React components, CSS variables
+- ✅ **Performance:** Optimized images, minimal dependencies
 
-### `npm start`
+## 📋 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React.js (Create React App)
+- **Styling:** CSS3 (Flexbox, Grid, Media Queries)
+- **API:** Fake Store API (no backend required)
+- **Deployment:** Netlify
+- **Version Control:** Git & GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation & Setup
 
-### `npm test`
+### Prerequisites
+- Node.js v14+
+- npm or yarn
+- Git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
+1. Clone the repository
+git clone https://github.com/madhunayani/appscrip-task-madhu-nayani.git
+cd appscrip-task-madhu-nayani
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+3. Start development server
+npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm run build
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📁 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src/
+├── components/ # React components
+│ ├── Header.js
+│ ├── Filters.js
+│ ├── ProductCard.js
+│ ├── ProductGrid.js
+│ ├── Footer.js
+│ └── App.js
+├── styles/ # CSS files
+│ ├── variables.css
+│ ├── index.css
+│ ├── Header.css
+│ ├── Filters.css
+│ ├── ProductCard.css
+│ ├── ProductGrid.css
+│ └── Footer.css
+├── hooks/ # Custom React hooks
+│ └── useProducts.js
+├── utils/ # Utility functions
+│ └── api.js
+└── assets/ # Images and icons
+├── images/
+└── icons/
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🎨 Design Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+All designs follow the Figma specifications in `DESIGN_SPECS.md`
 
-### Making a Progressive Web App
+## 📱 Responsive Breakpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **Desktop:** 1440px and above
+- **Tablet:** 768px - 1023px
+- **Mobile:** Below 768px
 
-### Advanced Configuration
+## 🚀 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Deployed on Netlify with automatic deploys from GitHub.
 
-### Deployment
+**Live URL:** [https://appscrip-task-madhu-nayani.netlify.app/](https://appscrip-task-madhu-nayani.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📖 API Documentation
 
-### `npm run build` fails to minify
+### Fake Store API
+- **Endpoint:** https://fakestoreapi.com/products
+- **Method:** GET
+- **Response:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[
+{
+"id": 1,
+"title": "Product Title",
+"price": 109.95,
+"description": "Product description",
+"category": "electronics",
+"image": "https://example.com/image.jpg",
+"rating": { "rate": 3.9, "count": 120 }
+}
+]
+
+
+## ♿ Accessibility
+
+- Semantic HTML elements
+- ARIA labels for interactive components
+- Keyboard navigation support
+- Color contrast ratios meet WCAG AA standards
+- Screen reader friendly
+
+## 🔍 SEO
+
+- Meta tags and descriptions
+- Schema.org JSON-LD markup
+- Semantic HTML
+- Image alt attributes
+- Mobile-friendly design
+
+## 📝 License
+
+MIT License - feel free to use this project for learning and development.
+
+## 👤 Author
+
+**Madhu Nayani**
+- GitHub: [@madhunayani](https://github.com/madhunayani)
+- Portfolio: [Portfolio Link]
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
+
+---
+
+**Happy Coding!** 🚀

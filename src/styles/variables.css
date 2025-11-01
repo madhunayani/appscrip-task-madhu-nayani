@@ -1,0 +1,132 @@
+/* ========================================
+   DESIGN SYSTEM - CSS CUSTOM PROPERTIES
+   ======================================== */
+
+:root {
+  /* ===== COLOR PALETTE ===== */
+  
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-dark-charcoal: #252020;
+  --color-dark-gray: #292D32;
+  --color-medium-gray: #4D4D4D;
+  --color-text-gray: #888792;
+  --color-light-gray: #BFC8CD;
+  --color-very-light-gray: #E5E5E5;
+  
+  /* Accent Colors */
+  --color-primary-pink: #EB4C6B;
+  --color-light-pink-bg: #FFF2F5;
+  --color-primary-green: #34A853;
+  --color-blue: #4285F4;
+  --color-purple: #5A31F4;
+  
+  /* Canvas/Background */
+  --color-canvas-bg: #282828;
+  
+  /* Payment Methods (Footer) */
+  --color-visa: #003087;
+  --color-mastercard: #EB001B;
+  --color-amex: #006FCF;
+  --color-paypal: #003087;
+  --color-google-pay: #5F6368;
+  --color-apple-pay: #000000;
+  
+  /* ===== TYPOGRAPHY ===== */
+  
+  /* Font Families */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  --font-secondary: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* Font Sizes */
+  --font-size-h1: 36px;
+  --font-size-h2: 28px;
+  --font-size-h3: 24px;
+  --font-size-body: 14px;
+  --font-size-small: 12px;
+  --font-size-button: 16px;
+  
+  /* Font Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.8;
+  
+  /* Letter Spacing */
+  --letter-spacing-normal: 0px;
+  --letter-spacing-logo: 1px;
+  
+  /* ===== SPACING ===== */
+  
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-xxl: 40px;
+  --spacing-xxxl: 64px;
+  
+  /* Grid & Layout */
+  --grid-gap: 20px;
+  --filter-gap: 24px;
+  --nav-gap: 64px;
+  --container-padding: var(--spacing-lg);
+  
+  /* ===== DIMENSIONS ===== */
+  
+  /* Desktop */
+  --header-height-desktop: 220px;
+  --navbar-width-desktop: 1440px;
+  --filter-width-desktop: 300px;
+  --product-grid-width-desktop: 932px;
+  --product-card-width-desktop: 300px;
+  --product-card-height-desktop: 462px;
+  --footer-height-desktop: 750px;
+  
+  /* Tablet */
+  --navbar-width-tablet: 1024px;
+  --product-grid-width-tablet: 664px;
+  --product-card-width-tablet: 300px;
+  
+  /* Mobile */
+  --navbar-width-mobile: 679px;
+  --product-grid-width-mobile: 100%;
+  --product-card-width-mobile: 100%;
+  
+  /* ===== RESPONSIVE BREAKPOINTS ===== */
+  
+  /* Desktop: >= 1440px */
+  --breakpoint-desktop: 1440px;
+  /* Tablet: 768px - 1023px */
+  --breakpoint-tablet-min: 768px;
+  --breakpoint-tablet-max: 1023px;
+  /* Mobile: < 768px */
+  --breakpoint-mobile-max: 767px;
+  
+  /* ===== BORDER RADIUS ===== */
+  
+  --border-radius-sm: 2px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 8px;
+  --border-radius-xl: 12px;
+  
+  /* ===== BOX SHADOW ===== */
+  
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+  /* ===== TRANSITIONS ===== */
+  
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+}
