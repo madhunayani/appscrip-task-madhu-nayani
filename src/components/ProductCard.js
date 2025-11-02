@@ -33,7 +33,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         {/* Product Image */}
         <img
           src={image}
-          alt={`${title} - Product Image`}
+          alt={title}
           className="product-image"
           loading="lazy"
         />

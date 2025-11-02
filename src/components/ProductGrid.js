@@ -56,7 +56,7 @@ const ProductGrid = ({ products = [], loading = false, error = null, onAddToCart
   }
 
   return (
-    <section className="product-grid" aria-label="Product grid" role="region">
+    <section className="product-grid-empty">
       <div className="products-container">
         {displayProducts.map((product) => (
           <ProductCard
