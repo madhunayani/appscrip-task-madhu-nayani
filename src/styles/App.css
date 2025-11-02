@@ -2,7 +2,7 @@
    APP COMPONENT STYLES
    ======================================== */
 
-@import url('styles/variables.css');
+@import url('variables.css');
 
 .app {
   display: flex;
